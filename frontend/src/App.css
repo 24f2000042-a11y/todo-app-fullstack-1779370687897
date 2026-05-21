@@ -1,0 +1,9 @@
+.app { font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; padding: 1rem; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); background: #f0f8ff; }
+.title { text-align: center; color: #007BFF; }
+.input-group { display: flex; gap: 10px; margin-bottom: 1rem; }
+.input-group input { flex: 1; padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px; }
+.input-group button { padding: 0.5rem 1rem; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.input-group button:disabled { background: #999; cursor: not-allowed; }
+.todo-list { list-style: none; padding: 0; }
+.todo-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding: 0.5rem; border-bottom: 1px solid #eee; }
+.error { color: red; text-align: center; margin-bottom: 1rem; }
